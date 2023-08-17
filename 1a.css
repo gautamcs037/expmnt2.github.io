@@ -1,0 +1,69 @@
+body{
+    font-family:serif:Arial, Helvetica, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+
+header{
+    display:flex;
+    align-times: center;
+    padding:5px;
+    background-color:#d7d528;
+    color:#2e3192;
+}
+
+.college-info{
+    margin-left:20px;
+}
+
+nav{
+    background-color:#2e3192;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    padding:15px;
+}
+
+
+.menu li{
+    margin-right:20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration:none;
+}
+
+.logo img{
+    max-height: 130px ;
+
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color:lightseagreen ;
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
+.footer-content{
+    margin-top: auto;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.social-media img{
+    height: 30px;
+    margin: 0 5px;
+}
